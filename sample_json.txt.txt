@@ -1,0 +1,62 @@
+1. Add Theatre:
+{
+    "theatre_name": "INox",
+    "theatre_city": "Noida 54",
+    "theatre_company": {
+        "company_name": "INOX Entertainment",
+        "comapany_city": "Noida"
+    }
+}
+
+-----------------
+2. GetAllTheatre
+[
+    {
+        "id": 1,
+        "theatre_company": {
+            "id": 1,
+            "company_name": "INOX Entertainment",
+            "company_city": null
+        },
+        "theatre_name": "INox",
+        "theatre_city": "Noida"
+    },
+    {
+        "id": 2,
+        "theatre_company": {
+            "id": 2,
+            "company_name": "INOX Entertainment",
+            "company_city": null
+        },
+        "theatre_name": "INox",
+        "theatre_city": "Noida 18"
+    },
+    {
+        "id": 3,
+        "theatre_company": {
+            "id": 3,
+            "company_name": "INOX Entertainment",
+            "company_city": null
+        },
+        "theatre_name": "INox",
+        "theatre_city": "Noida 54"
+    }
+]
+
+3. Add Show
+----------
+{
+	"show_name": "Morning",
+	"start_time": "12.00 PM",
+	"duration": 2,
+    "playing_at":"1",
+	"movie":{
+	    "title":"Avatar",
+	    "description":" Good movie to watch ...",
+	    "durationInMins":2,
+	    "language":"Hindi",
+	    "releaseDate":2023,
+	    "genre":"suspense"
+	    
+	}
+}
